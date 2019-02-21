@@ -1,1 +1,29 @@
 // Mixins in here
+
+
+//Nav
+.navcenter() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+// button
+
+.newbtn(){
+  padding:10px 20px;
+  background: @button-bg;
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+
+}
+
+
+.animation(@arguments) {
+	-webkit-animation: @arguments;
+	-moz-animation: @arguments;
+	animation: @arguments;
+}
